@@ -13,17 +13,18 @@ url: ""
 # Footer info
 affiliation: >
   Elena Sofia Ruzzetti<br/>
-  Professor of Physics<br/>
+  Pd.D. Student in Data Science<br/>
   University of Rome Tor Vergata
 
 location: >
   University of Rome Tor Vergata<br/>
-  1200 E California Blvd<br/>
-  Pasadena, CA 91125
+  Department of Management Engineering<br/>
+  <a href="https://humancentricart.github.io/">Human Centric ART Lab</a>
 
 contact: >
-  <a href="mailto:elena.sofia.ruzzetti@uniroma2.it" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Richard via email</a> <br/>
-  <a href="https://github.com/sbryngelson/academic-website-template"><i class="fa fa-github fa-1x"></i> Use this site as a template!</a>
+  <a href="mailto:elena.sofia.ruzzetti@uniroma2.it" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact me via email</a> <br/>
+  <a href="https://github.com/elenasofia98"><i class="fa fa-github fa-1x"></i> Some Projects on GitHub</a>
+  <a href="https://www.linkedin.com/in/elena-sofia-ruzzetti/"> <i class="bi bi-linkedin"></i> Get in touch on LinkedIn</a>
 
 # Pages shown in navbar
 nav_pages:
@@ -62,8 +63,8 @@ kramdown:
 plugins: ["jekyll/scholar"]
 
 scholar:
-  last_name: Doe
-  first_name: [John]
+  last_name: Ruzzetti
+  first_name: [Elena Sofia]
 
   style: citesty
   locale: en
