@@ -23,14 +23,17 @@ years: [2022, 2023, 2024, 2025]
 </div>
 
 <div class="jumbotron">
-### Refereed journal articles
+### Conference Proceedings
+{% bibliography --query @inproceedings %}
+</div>
+
+
+<div class="jumbotron">
+### Journal articles
 {% bibliography --query @article %}
 </div>
 
-<div class="jumbotron">
-### Refereed conference proceedings
-{% bibliography --query @inproceedings %}
-</div>
+
 
 
 
