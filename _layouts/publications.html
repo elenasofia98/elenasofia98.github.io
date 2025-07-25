@@ -4,3 +4,24 @@ layout: default
 <div id="publications" class="col-sm-12">
   {{ content }}
 </div>
+
+<script>
+  function toggleBibtex(caller) {
+    let key = caller.id.split('-')[0]
+    var x = document.getElementById('a' + key);
+    if (x.style.display === 'none') {
+      x.style.display = 'block';
+    } else {
+      x.style.display = 'none';
+    }
+  }
+  function toggleAbstract(caller) {
+    let key = caller.id.split('-')[0]
+    var x = document.getElementById('b' + key);
+    if (x.style.display === 'none') {
+      x.style.display = 'block';
+    } else {
+      x.style.display = 'none';
+    }
+  }
+</script>
