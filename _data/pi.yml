@@ -1,0 +1,17 @@
+- name: Elena Sofia Ruzzetti
+  photo: headshot.jpg
+  info: Elena Sofia Ruzzetti, Ph.D Student in Data Science, Human Cencric ART Lab, University of Rome Tor Vergata
+  email: elena.sofia.ruzzetti@uniroma2.it
+  github: https://github.com/elenasofia98
+  researchgate: https://www.researchgate.net/profile/Elena-Sofia-Ruzzetti
+  scholar: https://scholar.google.com/citations?user=XRi2_woAAAAJ
+  cv: cv/cv.pdf
+  # Change the items in "education" you have (up to 6)
+  education:
+    [
+      "(2022 - today) Ph.D. Data Science, University of Rome Tor Vergata",
+      "(2020 - 2022) Master's Degree in Computer Science, University of Rome Tor Vergata"
+    ]
+
+  educationshort:
+    ["(2022 - today) Ph.D. Data Science, Rome Tor Vergata", "(2020-2022) MSc Computer Science, Rome Tor Vergata"]
