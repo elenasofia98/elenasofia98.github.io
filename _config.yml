@@ -14,7 +14,7 @@ url: ""
 affiliation: >
   Elena Sofia Ruzzetti<br/>
   Pd.D. Student in Data Science<br/>
-  University of Rome Tor Vergata
+  Human Centric ART Lab, University of Rome Tor Vergata
 
 location: >
   University of Rome Tor Vergata<br/>
@@ -28,7 +28,7 @@ contact: >
 
 # Pages shown in navbar
 nav_pages:
-  #- name: about
+  - name: about
   - name: publications
   #- name: talks
   #- name: research
