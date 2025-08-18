@@ -19,13 +19,13 @@ Recently, I have been focusing on studying and mitigating privacy risks in LLMs.
 [ACL 2025](https://2025.aclweb.org/) has been a blast! An exiciting conference, interesting papers and great chance to exchange ideas in a vibrant enviroment.
 
 
-<div markdown="0" id="carouselHigh" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
+<div id="carouselHigh" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carouselHigh" data-slide-to="0" class="active"></li>
         <li data-target="#carouselHigh" data-slide-to="1"></li>
         <li data-target="#carouselHigh" data-slide-to="2"></li>
     </ol>   
-    <div class="carousel-inner" markdown="0">
+    <div class="carousel-inner">
         <div class="carousel-item active">
             <img  class="d-block w-100" src="{{ site.url }}{{ site.baseurl }}/images/slider/acl_group.jpg" alt="Group photo at ACL 2025"/>
         </div>
@@ -40,7 +40,7 @@ Recently, I have been focusing on studying and mitigating privacy risks in LLMs.
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
     </a>
-        <a class="carousel-control-next" href="#carouselHigh" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#carouselHigh" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
