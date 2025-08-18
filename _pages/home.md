@@ -19,31 +19,29 @@ Recently, I have been focusing on studying and mitigating privacy risks in LLMs.
 [ACL 2025](https://2025.aclweb.org/) has been a blast! An exiciting conference, interesting papers and great chance to exchange ideas in a vibrant enviroment.
 
 
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
+<div markdown="0" id="carouselHigh" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-    </ol>
-
+        <li data-target="#carouselHigh" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselHigh" data-slide-to="1"></li>
+        <li data-target="#carouselHigh" data-slide-to="2"></li>
+    </ol>   
     <div class="carousel-inner" markdown="0">
         <div class="carousel-item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/acl_group.jpg" alt="Group photo at ACL 2025" />
+            <img  class="d-block w-100" src="{{ site.url }}{{ site.baseurl }}/images/slider/acl_group.jpg" alt="Group photo at ACL 2025"/>
         </div>
         <div class="carousel-item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/PME_poster.png" alt="Private Memorization Editing poster header" />
+            <img class="d-block w-100" src="{{ site.url }}{{ site.baseurl }}/images/slider/PME_poster.png" alt="Private Memorization Editing poster header"/>
         </div>
         <div class="carousel-item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/acl_posterpres.jpg" alt="Private Memorization Editing poster presentation" />
+            <img class="d-block w-100" src="{{ site.url }}{{ site.baseurl }}/images/slider/acl_posterpres.jpg" alt="Private Memorization Editing poster presentation" />
         </div>
     </div>
-
-    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <a class="carousel-control-prev" href="#carouselHigh" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <a class="carousel-control-next" href="#carouselHigh" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
 </div>
