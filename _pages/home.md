@@ -12,3 +12,42 @@ Hi! This is Elena, Ph.D. Student in [Data Science](https://datasciencephd.unirom
 My research revolves around Trustworthy AI principles, applied to language models.
 I have been working expecially on robustness, security, interpretability, and fairness.
 Recently, I have been focusing on studying and mitigating privacy risks in LLMs.
+
+
+### Latest and Highlights
+
+[ACL 2025](https://2025.aclweb.org/) has been a blast! An exiciting conference, interesting papers and great chance to exchange ideas in a vibrant enviroment.
+
+
+<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
+    <!-- Menu -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Items -->
+    <div class="carousel-inner" markdown="0">
+        <div class="item active">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/acl_group.jpg" alt="Group photo at ACL 2025" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/PME_poster.png" alt="Private Memorization Editing poster header" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/acl_posterpres.jpg" alt="Private Memorization Editing poster presentation" />
+        </div>
+    </div>
+  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+I am proud to say our model editing tecnique [Private Memorization Editing (PME)](https://aclanthology.org/2025.acl-long.810/) captured the attention of those interested in efficient and precise edit of unwanted behaviour in LLMs! In the paper, we propose a model editing to tackle privacy issues, guided by a precise knowledge of the training data: privacy of data owners is preserved, without an impact on model utility.
+
